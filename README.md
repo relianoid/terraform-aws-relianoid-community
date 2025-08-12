@@ -14,7 +14,7 @@ This Terraform configuration deploys the **RELIANOID Community Edition** virtual
 ## Quick Start
 ## Clone this repository
 - git clone https://git.relianoid.com/Relianoid/terraform-AWS-relianoid-community
-- cd terraform-azurerm-relianoid-community
+- cd terraform-AWS-relianoid-community
 
 ## Generate an SSH key (if not already)
 - ssh-keygen -t rsa -b 4096 -f id_rsa
