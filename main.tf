@@ -85,14 +85,7 @@ resource "aws_key_pair" "ssh_key" {
   public_key = file(var.public_ssh_key_path)
 }
 
-# 8. Elastic IP
-resource "aws_eip" "eip" {
-  instance = aws_instance.vm.id
-  domain   = "vpc"
-}
-
-
-# 9. EC2 Instance (Marketplace Image)
+# 8. EC2 Instance (Marketplace Image)
 resource "aws_instance" "vm" {
   ami                    = var.ami_id
   instance_type          = var.instance_type
@@ -109,4 +102,3 @@ resource "aws_instance" "vm" {
     Name = var.vm_name
   }
 }
-
