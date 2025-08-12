@@ -73,7 +73,7 @@ terraform apply
 
 ---
 
-## 🔌 Access the VM
+##  Access the VM
 
 Once deployed, you can SSH into the VM:
 
@@ -133,7 +133,7 @@ ssh -i id_rsa admin@54.210.123.45
 
 ---
 
-## 🌐 Web GUI Access
+##  Web GUI Access
 
 Once deployed, the RELIANOID web interface will be available at:
 
@@ -143,7 +143,7 @@ https://<elastic-ip>:444
 
 ---
 
-## 🗑 Destroy Resources
+##  Destroy Resources
 
 To delete all created resources:
 
